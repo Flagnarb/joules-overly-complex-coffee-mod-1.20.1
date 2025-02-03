@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "joules-coffee-mod",
+	"version": "${version}",
+	"name": "Joules' Overly Complex Coffee Mod",
+	"description": "An extremely overly complicated Coffee Mod. You don't need this many varieties of coffee, but here we are!",
+	"authors": [
+		"Joules, aka Flagnarb"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/joules-coffee-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.joules.joulescoffeemod.JoulesOverlyComplexCoffeeMod"
+		],
+		"client": [
+			"net.joules.joulescoffeemod.JoulesOverlyComplexCoffeeModClient"
+		],
+		"fabric-datagen": [
+			"net.joules.joulescoffeemod.JoulesOverlyComplexCoffeeModDataGenerator"
+		]
+	},
+	"mixins": [
+		"joules-coffee-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
