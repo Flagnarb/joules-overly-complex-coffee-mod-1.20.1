@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "joules-coffee-mod:block/raw_coffee_a_block"
+  }
+}

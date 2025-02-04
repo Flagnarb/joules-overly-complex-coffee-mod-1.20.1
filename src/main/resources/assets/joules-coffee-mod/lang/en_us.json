@@ -1,14 +1,16 @@
 {
 
-  "itemgroup.joulescoffee": "Joules' Overly Complex Coffee Mod",
+  "itemgroup.joulescoffee": "Joules' Overly Complicated Coffee Mod [JOCCM]",
 
 
   "block.joules-coffee-mod.coffee_a_block": "Block of Arabica Coffee Beans",
+  "block.joules-coffee-mod.raw_coffee_a_block": "Block of Raw Arabica Coffee Beans",
 
 
 
 
   "item.joules-coffee-mod.coffee_bean_a": "Arabica Coffee Beans",
-  "item.joules-coffee-mod.raw_coffee_bean_a": "Raw Arabica Coffee Beans"
+  "item.joules-coffee-mod.raw_coffee_bean_a": "Raw Arabica Coffee Beans",
+  "item.joules-coffee-mod.coffee_cherry_a": "Arabica Cherry"
 
 }

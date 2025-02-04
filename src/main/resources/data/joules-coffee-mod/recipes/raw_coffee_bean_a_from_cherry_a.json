@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "joules-coffee-mod:coffee_cherry_a"
+    }
+  ],
+
+  "result": {
+  "item": "joules-coffee-mod:raw_coffee_bean_a",
+  "count": 1
+  }
+}

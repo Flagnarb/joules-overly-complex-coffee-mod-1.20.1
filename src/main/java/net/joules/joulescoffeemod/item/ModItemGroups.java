@@ -18,10 +18,16 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.COFFEE_BEAN_A)).entries((displayContext, entries) -> {
 
 
-                        entries.add(ModItems.COFFEE_BEAN_A);
-                        entries.add(ModItems.RAW_COFFEE_BEAN_A);
 
+                        entries.add(ModItems.COFFEE_CHERRY_A);
+                        entries.add(ModItems.RAW_COFFEE_BEAN_A);
+                        entries.add(ModItems.COFFEE_BEAN_A);
+
+
+
+                        entries.add(ModBlocks.RAW_COFFEE_A_BLOCK);
                         entries.add(ModBlocks.COFFEE_A_BLOCK);
+
 
 
                     }).build());

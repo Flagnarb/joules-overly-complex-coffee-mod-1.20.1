@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "b": {
+      "item": "joules-coffee-mod:coffee_bean_a"
+    }
+  },
+  "result": {
+    "item": "joules-coffee-mod:coffee_a_block"
+  }
+}

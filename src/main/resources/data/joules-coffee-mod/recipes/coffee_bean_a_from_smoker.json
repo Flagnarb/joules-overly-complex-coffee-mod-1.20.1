@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "joules-coffee-mod:raw_coffee_bean_a"
+  },
+  "result": "joules-coffee-mod:coffee_bean_a"
+}
