@@ -1,3 +1,5 @@
 {
-  "item.joules-coffee-mod.coffee_bean_a": "Arabica Coffee Beans"
+  "itemgroup.joulescoffee": "Joules' Overly Complex Coffee Mod",
+  "item.joules-coffee-mod.coffee_bean_a": "Arabica Coffee Beans",
+  "item.joules-coffee-mod.raw_coffee_bean_a": "Raw Arabica Coffee Beans"
 }

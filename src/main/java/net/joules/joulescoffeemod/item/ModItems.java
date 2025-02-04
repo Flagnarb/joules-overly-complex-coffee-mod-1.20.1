@@ -12,9 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static Item COFFEE_BEAN_A = registerItem("coffee_bean_a", new Item(new FabricItemSettings()));
+    public static Item RAW_COFFEE_BEAN_A = registerItem("raw_coffee_bean_a", new Item(new FabricItemSettings()));
 
     private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries) {
         entries.add(COFFEE_BEAN_A);
+        entries.add(RAW_COFFEE_BEAN_A);
     }
 
     private static Item registerItem(String name, Item item) {
