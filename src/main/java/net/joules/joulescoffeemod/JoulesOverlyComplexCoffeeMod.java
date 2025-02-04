@@ -2,6 +2,7 @@ package net.joules.joulescoffeemod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.joules.joulescoffeemod.block.ModBlocks;
 import net.joules.joulescoffeemod.item.ModItemGroups;
 import net.joules.joulescoffeemod.item.ModItems;
 import org.slf4j.Logger;
@@ -17,5 +18,6 @@ public class JoulesOverlyComplexCoffeeMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -2,6 +2,7 @@ package net.joules.joulescoffeemod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.joules.joulescoffeemod.JoulesOverlyComplexCoffeeMod;
+import net.joules.joulescoffeemod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -16,8 +17,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.joulescoffee"))
                     .icon(() -> new ItemStack(ModItems.COFFEE_BEAN_A)).entries((displayContext, entries) -> {
 
+
                         entries.add(ModItems.COFFEE_BEAN_A);
                         entries.add(ModItems.RAW_COFFEE_BEAN_A);
+
+                        entries.add(ModBlocks.COFFEE_A_BLOCK);
 
 
                     }).build());
