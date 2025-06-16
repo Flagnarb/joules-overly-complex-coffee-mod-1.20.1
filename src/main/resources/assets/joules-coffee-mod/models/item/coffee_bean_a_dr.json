@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "joules-coffee-mod:item/coffee_bean_a_dr"
+  }
+}

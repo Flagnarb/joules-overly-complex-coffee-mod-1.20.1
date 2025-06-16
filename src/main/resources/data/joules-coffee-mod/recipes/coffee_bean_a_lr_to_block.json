@@ -8,10 +8,10 @@
   ],
   "key": {
     "b": {
-      "item": "joules-coffee-mod:coffee_bean_a"
+      "item": "joules-coffee-mod:coffee_bean_a_lr"
     }
   },
   "result": {
-    "item": "joules-coffee-mod:coffee_a_block"
+    "item": "joules-coffee-mod:coffee_a_lr_block"
   }
 }

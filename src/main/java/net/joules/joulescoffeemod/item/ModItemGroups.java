@@ -15,18 +15,21 @@ public class ModItemGroups {
     public static final ItemGroup JOULES_COFFEE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(JoulesOverlyComplexCoffeeMod.MOD_ID, "joulescoffee"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.joulescoffee"))
-                    .icon(() -> new ItemStack(ModItems.COFFEE_BEAN_A)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.COFFEE_BEAN_A_LR)).entries((displayContext, entries) -> {
 
 
 
                         entries.add(ModItems.COFFEE_CHERRY_A);
-                        entries.add(ModItems.RAW_COFFEE_BEAN_A);
-                        entries.add(ModItems.COFFEE_BEAN_A);
+                        entries.add(ModItems.COFFEE_BEAN_A_RAW);
+                        entries.add(ModItems.COFFEE_BEAN_A_LR);
+                        entries.add(ModItems.COFFEE_BEAN_A_MR);
+                        entries.add(ModItems.COFFEE_BEAN_A_DR);
+                        entries.add(ModItems.COFFEE_BEAN_A_XR);
 
 
 
-                        entries.add(ModBlocks.RAW_COFFEE_A_BLOCK);
-                        entries.add(ModBlocks.COFFEE_A_BLOCK);
+                        entries.add(ModBlocks.COFFEE_A_RAW_BLOCK);
+                        entries.add(ModBlocks.COFFEE_A_LR_BLOCK);
 
 
 

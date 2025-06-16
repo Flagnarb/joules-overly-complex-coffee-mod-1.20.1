@@ -3,14 +3,20 @@
   "itemgroup.joulescoffee": "Joules' Overly Complicated Coffee Mod [JOCCM]",
 
 
-  "block.joules-coffee-mod.coffee_a_block": "Block of Arabica Coffee Beans",
-  "block.joules-coffee-mod.raw_coffee_a_block": "Block of Raw Arabica Coffee Beans",
+  "block.joules-coffee-mod.coffee_a_lr_block": "Block of Light Roast Arabica Coffee Beans",
+  "block.joules-coffee-mod.coffee_a_mr_block": "Block of Medium Roast Arabica Coffee Beans",
+  "block.joules-coffee-mod.coffee_a_dr_block": "Block of Dark Roast Arabica Coffee Beans",
+  "block.joules-coffee-mod.coffee_a_xr_block": "Block of Very Dark Roast Arabica Coffee Beans",
+  "block.joules-coffee-mod.coffee_a_raw_block": "Block of Raw Arabica Coffee Beans",
 
 
 
 
-  "item.joules-coffee-mod.coffee_bean_a": "Arabica Coffee Beans",
-  "item.joules-coffee-mod.raw_coffee_bean_a": "Raw Arabica Coffee Beans",
+  "item.joules-coffee-mod.coffee_bean_a_lr": "Light Roast Arabica Coffee Beans",
+  "item.joules-coffee-mod.coffee_bean_a_mr": "Medium Roast Arabica Coffee Beans",
+  "item.joules-coffee-mod.coffee_bean_a_dr": "Dark Roast Arabica Coffee Beans",
+  "item.joules-coffee-mod.coffee_bean_a_xr": "Very Dark Roast Arabica Coffee Beans",
+  "item.joules-coffee-mod.coffee_bean_a_raw": "Raw Arabica Coffee Beans",
   "item.joules-coffee-mod.coffee_cherry_a": "Arabica Cherry"
 
 }

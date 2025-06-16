@@ -11,13 +11,19 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static Item COFFEE_BEAN_A = registerItem("coffee_bean_a", new Item(new FabricItemSettings()));
-    public static Item RAW_COFFEE_BEAN_A = registerItem("raw_coffee_bean_a", new Item(new FabricItemSettings()));
+    public static Item COFFEE_BEAN_A_LR = registerItem("coffee_bean_a_lr", new Item(new FabricItemSettings()));
+    public static Item COFFEE_BEAN_A_MR = registerItem("coffee_bean_a_mr", new Item(new FabricItemSettings()));
+    public static Item COFFEE_BEAN_A_DR = registerItem("coffee_bean_a_dr", new Item(new FabricItemSettings()));
+    public static Item COFFEE_BEAN_A_XR = registerItem("coffee_bean_a_xr", new Item(new FabricItemSettings()));
+    public static Item COFFEE_BEAN_A_RAW = registerItem("coffee_bean_a_raw", new Item(new FabricItemSettings()));
     public static Item COFFEE_CHERRY_A = registerItem("coffee_cherry_a", new Item(new FabricItemSettings()));
 
     private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries) {
-        entries.add(COFFEE_BEAN_A);
-        entries.add(RAW_COFFEE_BEAN_A);
+        entries.add(COFFEE_BEAN_A_LR);
+        entries.add(COFFEE_BEAN_A_MR);
+        entries.add(COFFEE_BEAN_A_DR);
+        entries.add(COFFEE_BEAN_A_XR);
+        entries.add(COFFEE_BEAN_A_RAW);
         entries.add(COFFEE_CHERRY_A);
     }
 

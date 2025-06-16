@@ -3,12 +3,12 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "joules-coffee-mod:raw_coffee_a_block"
+      "item": "joules-coffee-mod:coffee_a_raw_block"
     }
   ],
 
   "result": {
-  "item": "joules-coffee-mod:raw_coffee_bean_a",
+  "item": "joules-coffee-mod:coffee_bean_a_raw",
   "count": 9
   }
 }

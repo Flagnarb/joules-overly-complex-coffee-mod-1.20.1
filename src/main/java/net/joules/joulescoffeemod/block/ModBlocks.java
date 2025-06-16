@@ -13,9 +13,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block COFFEE_A_BLOCK = registerBlock("coffee_a_block",
+    public static final Block COFFEE_A_LR_BLOCK = registerBlock("coffee_a_lr_block",
             new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.GRAVEL)));
-    public static final Block RAW_COFFEE_A_BLOCK = registerBlock("raw_coffee_a_block",
+    public static final Block COFFEE_A_RAW_BLOCK = registerBlock("coffee_a_raw_block",
             new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.WART_BLOCK)));
 
 
